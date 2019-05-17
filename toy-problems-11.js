@@ -64,7 +64,6 @@ Array.prototype.newReduce = function (accumulator=0, cb) {
     for (let index=0; index<this.length; index++) {
         accumulator = cb(accumulator, this[index]);
     }
-
     return accumulator
 }
 
